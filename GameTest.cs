@@ -29,7 +29,7 @@ namespace tictactoe_csharp
             Assert.Equal(-1, game.Move('X'));
         }
 
-		[Fact]
+        [Fact]
         public void testFindWinningRowMove()
         {
             Game game = new Game("OO-XX-OOX");
